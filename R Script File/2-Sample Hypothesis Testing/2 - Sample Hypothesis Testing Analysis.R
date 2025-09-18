@@ -1,23 +1,3 @@
-#-----------------------------------------------------
-# SEC12143: PROBABILITY STATISTICAL & DATA ANALYSIS   |
-#                                                     |
-# PROJECT 2                                           |   
-#-----------------------------------------------------
-
-#-------------------------------------------------------
-#                                                       |
-# Member Name: AISYAH BINTI MOHD NADZRI                 |                                                                      
-# Matric Number: A21EC0011                              |
-#                                                       |
-# Analysis: 2-Sample Hypothesis Testing                 |
-#                                                       |
-# Objective of analysis: The mean of the college mark   |
-#                        obtained by the students is not|
-#                        equal to the mean of the daily | 
-#                        studying time spent by the     |
-#                        students.                      |
-#-------------------------------------------------------
-
 # Steps:
 #
 # 1) View our dataset
@@ -49,5 +29,6 @@
 #    Ha (alternative hypothesis) : Mean 'x' != Mean 'y'
 
       t.test(x, y, alternative = "two.sided", mu = 0)
+
 
       
